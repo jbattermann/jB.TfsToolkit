@@ -4,6 +4,7 @@
     <Identity Id="becd428b-780f-4008-87f3-070d1dbe1038" Version="1.0" Language="en-US" Publisher="Jörg Battermann" />
     <DisplayName>jB.TfsToolkit</DisplayName>
     <Description>TFS TeamExplorer Add-In that provides functionality not (easily) available to TFS Users and Admins</Description>
+    <License>LICENSE</License>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
@@ -14,5 +15,6 @@
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
   </Assets>
 </PackageManifest>

@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Joerg.Battermann.TfsToolkit
+namespace Joerg.Battermann.TfsToolkit.Infrastructure
 {
     static class GuidList
     {

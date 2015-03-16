@@ -59,5 +59,15 @@ namespace Joerg.Battermann.TfsToolkit {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PickAxe_32xMD {
+            get {
+                object obj = ResourceManager.GetObject("PickAxe_32xMD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

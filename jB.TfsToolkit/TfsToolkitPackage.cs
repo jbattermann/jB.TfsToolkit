@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.InteropServices;
+using Joerg.Battermann.TfsToolkit.Infrastructure;
 using Microsoft.VisualStudio.Shell;
 
 namespace Joerg.Battermann.TfsToolkit
@@ -33,7 +34,7 @@ namespace Joerg.Battermann.TfsToolkit
         /// </summary>
         public TfsToolkitPackage()
         {
-            Debug.WriteLine(string.Format(CultureInfo.CurrentCulture, "Entering constructor for: {0}", this.ToString()));
+            Trace.WriteLine(string.Format(CultureInfo.CurrentCulture, "Entering constructor for: {0}", this.ToString()));
         }
 
 
@@ -48,7 +49,7 @@ namespace Joerg.Battermann.TfsToolkit
         /// </summary>
         protected override void Initialize()
         {
-            Debug.WriteLine (string.Format(CultureInfo.CurrentCulture, "Entering Initialize() of: {0}", this.ToString()));
+            Trace.WriteLine (string.Format(CultureInfo.CurrentCulture, "Entering Initialize() of: {0}", this.ToString()));
             base.Initialize();
 
         }

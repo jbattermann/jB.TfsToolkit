@@ -9,3 +9,7 @@
 // file manually.
 
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1017:MarkAssembliesWithComVisible")]
+
+namespace Joerg.Battermann.TfsToolkit.Infrastructure
+{
+}
